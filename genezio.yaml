@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: ./
+    scripts:
+        build: npm install
+        deploy:
+            - npm install
+name: material-dashboardl
+region: us-east-1
+yamlVersion: 2
